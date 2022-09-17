@@ -1,0 +1,145 @@
+table,th,td {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td {
+    /* Table padding */
+    padding: 10px;
+    /* Horizontal Dividers */
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    /* Table Color */
+    background-color: green;
+    opacity: 0.7;
+    color: white
+}
+
+td {
+    height: 30px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/* Hoverable Table */
+tr:hover {
+    background-color: greenyellow;
+}
+
+/* Striped Tables */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+div {
+    overflow-x: auto;
+}
+
+/* Override the Default Display Value */
+li {
+    display: inline;
+}
+
+/* CSS Layout - width and max-width */
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+div.ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+/* CSS Layout - the position property */
+
+/* position: fixed */
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+div.absolute {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+/* CSS Layout - z-index */
+img {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* CSS Layout - Overflow */
+
+/* overflow: visible; */
+div.ex3 {
+    background-color: coral;
+    width: 200px;
+    height: 70px;
+    border: 1px solid;
+    overflow: visible;
+}
+
+/* overflow: hidden */
+div.ex4 {
+    background-color: coral;
+    width: 200px;
+    height: 70px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+/* overflow: scroll */
+div.ex5 {
+    background-color: coral;
+    width: 200px;
+    height: 70px;
+    border: 1px solid;
+    /* overflow: scroll; */
+    
+    /* overflow-x and overflow-y */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* overflow: auto */
+div.ex6 {
+    background-color: coral;
+    width: 200px;
+    height: 70px;
+    border: 1px solid;
+    overflow: auto;
+}
+
+/* CSS Layout - float and clear */
+
+/* The float property */
+/* img.ex1 {
+    float: right;
+} */

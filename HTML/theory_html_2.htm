@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>From Media Queries - Responsive</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            .left {
+                background-color: aqua;
+                float: left;
+                padding: 20px;
+                width: 20%;
+            }
+
+            .main {
+                background-color: aliceblue;
+                padding: 20px;
+                float: left;
+                width: 60%;
+            }
+
+            .right {
+                background-color: greenyellow;
+                padding: 20px;
+                float: left;
+                width: 20%;
+            }
+
+            /* Use a media query to add a break point at 800px */
+            @media screen and (max-width: 800px) {
+                .left, .main, .right {
+                    width: 100%;
+                }
+            }
+            .all-browsers {
+                margin: 0;
+                padding: 5px;
+                background-color: lightgrey;
+            }
+            .all-browsers > h1, .browsers {
+                margin: 10px;
+                padding: 5px;
+            }
+            .browsers {
+                background: white;
+            }
+            .browsers > h2, p {
+                margin: 4px;
+                font-size: 90%
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="left">
+            <p>Left Menu</p>
+        </div>
+
+        <div class="main">
+            <p>Main Content</p>
+        </div>
+
+        <div class="right">
+            <p>Right content</p>
+        </div>
+
+        <p>Paste the document pressing <kbd>Ctrl + V</kbd></p>
+        <p>Message from the computer</p>
+        <p><samp>File not found.<br>Press F1 to continue.</samp></p>
+        <p>Example for Python code</p>
+        <pre>
+        <code>
+        n = int(input())
+        sum = 0
+        for i in range(n):
+            sum += i
+        </code>
+        </pre>
+        <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+        <article class="all-browsers">
+            <h1>Most Popular Browsers</h1>
+            <article class="browsers">
+                <h2>Google Chrome</h2>
+                <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+            </article>
+            <article class="browsers">
+                <h2>Mozilla Firefox</h2>
+                <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+            </article>
+            <article class="browsers">
+                <h2>Microsoft Edge</h2>
+                <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+            </article>
+        </article>
+
+        <h2>Ninh Hai</h2>
+        <p>Ninh Hai is studying Cyber Security at Hanoi University of Science and Technology</p>
+        <figure>
+            <img src="Images/Avt_Ning.jpg" alt="Ninh Hai's avatar" style="max-width: 100%;">
+            <figcaption style="text-align: center;">Fig.1 - Ninh Hai</figcaption>
+        </figure>
+
+        <!-- HTML Symbols -->
+        <p>I will display &euro;</p>
+        <p>I will display &#8364;</p>
+        
+        <!-- HTML Emojis -->
+        <h2>My First Emoji</h2>
+        <p style="font-size: 48px;">&#128525;&#128511;</p>
+    </body>
+</html>

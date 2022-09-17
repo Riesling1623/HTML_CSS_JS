@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Theory HTML from HTML Styles CSS</title>
+        <!-- HTML Favicon -->
+        <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles0.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .city {
+                background-color: tomato;
+                color: white;
+                border: 2px solid black;
+                margin: 20px;
+                padding: 20px;
+            }
+            .note {
+                font-size: 120%;
+                color:red
+            }
+            .main {
+                text-align: center;
+            }
+            #myHeader {
+                background-color: lightblue;
+                color: black;
+                padding: 40px;
+                text-align: center;
+            }
+        </style>
+        <base href="http://www.w3schools.com/" target="_blank">
+    </head>
+
+    <body>
+        <h1 style="color: white;">This is the heading</h1>
+        <p style="color:white">This is the paragragh</p>
+        <p><a href="https://www.facebook.com/ninh.hai.39589149/" target="_blank">Visit my Facebook</a></p>
+        <a href="https://www.facebook.com/ninh.hai.39589149/" target="_blank">
+            <img src="htgtps://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/289038717_795061088541591_8312659578833121612_n.jpg?stp=dst-jpg_p640x640&_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=URwSFbpj88MAX_Hz634&_nc_ht=scontent.fhan3-4.fna&oh=00_AT-KcLHQQK4TcAvn5-ewWdaBlGMzH0gKQmdUcDVsusGo7A&oe=6309314F" alt="A5-K73-HT">
+        </a>
+        <p><a href="mailto:ninh.nguyn1602@gmail.com">Send Email</a></p>
+        <button onclick="document.location='https://www.facebook.com/ninh.hai.39589149/'">Ninh's Facebook</button>
+
+        <!-- HTML Images -->
+        
+        <!-- Background Image -->
+        <!-- <p style="background-image: url('https://scontent.fhph2-1.fna.fbcdn.net/v/t39.30808-1/280268000_773006894080344_1302951253788654951_n.jpg?stp=c27.0.160.160a_dst-jpg_p160x160&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_ohc=hH533u-lud8AX-APBHr&_nc_ht=scontent.fhph2-1.fna&oh=00_AT_Whpkf87X7QxaLF_G7Uimv1OjoTiinJqdapjB9pBbIsQ&oe=6307C754'); color: aliceblue;">
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+            This is NingggggHaiii avattar aasfnjsasnfasjf <br>
+
+        </p> -->
+
+        <!-- Picture element -->
+        <picture>
+            <source media="min-width: 650px" srcset="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/289038717_795061088541591_8312659578833121612_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=URwSFbpj88MAX_Hz634&_nc_ht=scontent.fhan3-4.fna&oh=00_AT9meGq3ZDJ-guoOU5pxoY92pbyki5Pmd_H7hvOK0zzelQ&oe=630B2B8F">
+            <source media="min-width: 465px" srcset="https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/280268000_773006894080344_1302951253788654951_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hH533u-lud8AX-QCPh2&_nc_ht=scontent.fhan3-2.fna&oh=00_AT-F7Q1kUVYij95Y5apCwy1XA5H7mRJb2cROPaGFUBCSOw&oe=630B1416">
+            <!-- <img src="https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/240669845_551313879421623_3523811184341759692_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=k1NmSh1Jp0gAX-Siiz9&_nc_ht=scontent.fhan3-4.fna&oh=00_AT9R8i69i6K_AUm3ttUXqWlDJq3xLJ83CKG53QOZeU7mqQ&oe=630B7DE9" style="min-width: auto;"> -->
+        </picture>
+
+        <!-- HTML Classes -->
+        <button onclick="myFunction()">Hide element</button>
+        <div class="city">
+            <h3>London</h3>
+            <p>London is the capital of England</p>
+        </div>
+        <div class="city">
+            <h3>Ha Noi</h3>
+            <p>Ha Noi is the capital of Viet Nam</p>
+        </div>
+        <h2>My <span class="note">Important </span>Heading</h2>
+        <p>There is some <span class="note">important </span>text</p>
+        <h2 class="city main">VietNam</h2>
+        <h2 class="city">HaNoi</h2>
+        <!-- Use of the class attribute in Javascript -->
+        
+        <!-- <script>
+            function myFunction() {
+                var x = document.getElementsByClassName("city");
+                for (var i = 0,i < x.length; i++) {
+                    x[i].style.display = "none"
+                }
+            }
+        </script> -->
+        <!-- HTML id Attribute -->
+        <h1 id="myHeader">My Header</h1>
+
+        <!-- HTML Bookmarks with id and Links -->
+        <p><a href="#HTM">Jump to the content of HTML</a></p>
+        <h2>Menu</h2>
+        <p>This is the content</p>
+        <h2>Home</h2>
+        <p>This is the content</p>
+        <h2 id="HTM">HTML</h2>
+        <p>This is the content</p>
+        <h2>CSS</h2>
+        <p>This is the content</p>
+
+        <!-- HTML Iframes -->
+        <iframe src="tkb.html" name="iframe_a" style="border: none;width:600px;height:400px" title="Thời khóa biểu dự kiến kỳ 20221"></iframe>
+        <!-- Target for a Link -->
+        <p><a href="https://www.google.com/" target="iframe_a">google.com</a></p>
+        
+        <!-- HTML Javascript -->
+        <!-- Change the content -->
+        <p id="demo"></p>
+        <script>
+            document.getElementById("demo").innerHTML = "Hello Javascript";
+        </script>
+        <!-- HTML <noscript> tag -->
+        <noscript>Sorry, your browser does not support Javascript</noscript>
+        <!-- Change the style -->
+        <p id="demo0">Nguyen Hai Ninh</p>
+        <script>
+            function myFunction() {
+                document.getElementById("demo0").style.fontSize = "25px";
+                document.getElementById("demo0").style.color = "red";
+                document.getElementById("demo0").style.backgroundColor = "yellow";
+            }
+        </script>
+        <p><button type="button" onclick="myFunction()">Click me and see the change</button></p>
+        <!-- Change attribute -->
+        <script>
+            function light(sw) {
+                var pic;
+                if (sw == 0) {
+                    pic = "/Images/pic_bulboff.gif"
+                } else {
+                    pic = "/Images/pic_bulbon.gif"
+                }
+                document.getElementById("myImage").src=pic;
+            }
+        </script>
+        <img id="myImage" src="/Images/pic_bulboff.gif" width="100" height="200">
+        <p>
+            <button type="button" onclick="light(1)">Light On</button>
+            <button type="button" onclick="light(0)">Light Off</button>
+        </p>
+        <!-- HTML <base> elements -->
+        <p><a href="html/html_head.asp">HTML head Element</a></p>
+    </body>
+</html>

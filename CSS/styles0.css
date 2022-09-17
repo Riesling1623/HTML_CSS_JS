@@ -1,0 +1,118 @@
+h2.a {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #ababab;
+}
+
+h2.b {
+    font-family: "Trirong", serif;
+}
+
+h2.c {
+    font-family: "Audiowide", sans-serif;
+}
+
+h2 {
+    font-family: "Sofia",sans-serif;
+    font-size: 30px;
+}
+
+p.a {
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
+
+/* CSS Links */
+
+/* Styling Links */
+/* a:link {
+    color: tomato;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: cyan;
+}
+
+a:hover {
+    color:hotpink;
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+
+a:active {
+    color: blue;
+    text-decoration: underline;
+    background-color: hotpink;
+} */
+
+/* Link Button */
+a:link, a:visited {
+    background-color: whitesmoke;
+    color: black;
+    padding: 14px 25px;
+    padding: 2px solid greenyellow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: greenyellow;
+    text-decoration: underline;
+}
+
+/* CSS Lists */
+
+/* ul {
+    list-style-image: url("Images/bground.jpg");
+} */
+
+/* Position */
+ul.a {
+    list-style-position: outside;
+}
+/* Styling Lists with Colors */
+ul.b {
+    list-style-position: inside;
+    background: #3399ff;
+    padding: 20px;
+}
+
+ul.b li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+
+/* Removing Default Settings */
+ul.c {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Tables */
+
+/* Table Borders */
+table, th, td {
+    border: 1px solid;
+}
+/* Full-width Table */
+table {
+    width: 100%;
+    /* Collapse Table Borders */
+    border-collapse: collapse;
+}
+
+/* Table Width and Height */
+th {
+    height: 50px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}

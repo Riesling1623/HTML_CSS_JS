@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Phần đầu -->
+    <head>
+        <title>Ning_HTML</title>
+        <meta charset="utf-8">
+        <style>
+            table,th,td {
+                border:1px solid black;
+                /* Collapse table border */
+                /* border-collapse: collapse; */
+                /* Round table borders */
+                border-radius: 10px;
+                /* Dotted Table Borders */
+                border-style: double;
+            }
+            th,td {
+                /* Style Table Borders */
+                background-color: aqua;
+                border-color: blue;
+                text-align: center;
+                /* HTML Table - Cell Padding */
+                padding-top: 5px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 20px;
+            }
+            /* HTML Table - Cell Spacing */
+            table {
+                border-spacing: 20px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow:hidden;
+                background-color: black;
+            }
+            li {
+                float:left;
+            }
+            li a {
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+            li a:hover {
+                background-color: green;
+                color: white;
+            }
+        </style>
+    </head>
+    <!-- Phần thân -->
+    <body>
+        <!-- Attribute input -->
+        <input type="text">
+        <input type="checkbox">
+        <input type="radio">
+        <input name="gender" type="radio">
+        <input name="gender" type="radio">
+        <input name="gender" type="radio">
+        <button>Đăng ký</button>
+        Xin chào các bạn 
+        <div style="background-color: powderblue">
+            <h1 style="color:blue" title="Yahallooo">This is the first heading</h1>
+            <p>My first paragraph<p>
+            <hr>
+            <h2 style="font-size: 60px;font-family: 'Courier New', Courier, monospace;">This is the second heading</h2>
+            <p>My second paragraph</p>
+
+            <h1 style="text-align: center">My Facebook</h1>
+            <p>This is <br> my Facebook link</p>
+            <!-- anchor -->
+            <a href="https://www.facebook.com/ninh.hai.39589149/">Link</a>
+            <!-- Image -->
+            <img src="httedfwefps://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/280268000_773006894080344_1302951253788654951_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hH533u-lud8AX-QCPh2&_nc_ht=scontent.fhan3-2.fna&oh=00_AT93WhFyEIFSmx1JmfyCGk-xiCcCJH79UFkaA7V0OI2-dw&oe=630919D6" alt="Ning's avatar">
+        </div>
+        <!-- List -->
+        <ul style="list-style-type: circle;">
+            <li>HTML là gì?</li>
+            <li>CSS là gì?</li>
+        </ul>
+        <!-- HTML Table -->
+        <p><table style="width:100%">
+            <thead>
+                <th style="width:10%">STT</th>
+                <td></td>
+                <td></td>
+                <!-- Column/Row spans -->
+                <th colspan="2">Tên</th>
+                <td></td>
+                <td></td>
+                <th>Tuổi</th>
+                <td></td>
+                <td></td>
+            </thead>
+
+            <tbody>
+                <caption>Family</caption>
+                <!-- <tr>:table row <td>:table data -->
+                <tr style="height: 50px;">
+                    <td>1</td> 
+                    <td>Ning</td>
+                    <td>Hải</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nam</td>
+                    <td>Hải</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table></p>
+        <table style="width:100%">
+            <tr>
+                <th width="20%">Monday</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th width="20%">Tuesday</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th width="20%">Wednesday</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th width="20%">Thursday</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th width="20%">Friday</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th width="20%">Saturday</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th width="20%">Sunday</th>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
+<!-- Nested HTML Lists -->
+<!-- <ul>
+    <li>Cafe</li>
+    <ul>
+        <li>Bạc xỉu</li>
+        <li>Đen đá</li>
+    </ul>
+    <li>Trà</li>
+    <ul>
+        <li>Hồng trà</li>
+        <li>Trà sữa</li>
+    </ul>
+</ul> -->
+<!-- Horizontal List with CSS -->
+<ul>
+    <li><a href="#Menu">MENU</a></li>
+    <li><a href="#Home">HOME</a></li>
+    <li><a href="#HTML">HTML</a></li>
+    <li><a href="#CSS">CSS</a></li>
+    <li><a href="#JAVASCRIPT">JAVASCRIPT</a></li>
+    <li><a href="#SQL">SQL</a></li>
+    <li><a href="#PYTHON">PYTHON</a></li>
+</ul>

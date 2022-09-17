@@ -1,0 +1,210 @@
+body {
+    /* background-`mage: url("../Images/bground.jpg"); */
+    /* background-repeat: repeat-x; Horizontal */
+    /* repeat-y: vertical; no-repeat:... */
+    /* background-repeat: no-repeat; */
+    /* background-position: right top; */
+    /* Adding margin so that the image does not disturb the text */
+    /* margin-right: 265px; */
+    /* Background Attachment */
+    /* background-attachment: fixed; */
+    /* scroll */
+
+    /* Background Shorthand */
+    background: lightgrey url("Images/bground.jpg") no-repeat fixed right top;
+}
+
+h1 {
+    /* Background Color */
+    background-color: black;
+    opacity: 0.8;
+    /* CSS Text Color */
+    color: white;
+    /* CSS Text Alignment */
+    text-align: center;
+    /* Decoration Line to Text */
+    /* text-decoration-line: overline underline; */
+    /* Specify Color for the Decoration Line */
+    /* text-decoration-color: blue; */
+    /* Specify Style for the Decoration Line */
+    /* text-decoration-style: dashed; */
+    /* Specify the Thickness for the Decoration Line */
+    /* text-decoration-thickness: 5px; */
+
+    /* Text Decoration Property */
+    text-decoration: underline red double 5px;
+}
+
+/* CSS Border Styles */
+p.mix {
+    /* 4 values */
+    /* border-style: dotted dashed solid double; */
+    /* 3 values */
+    border-style: dotted dashed solid;
+
+    /* CSS Border Width */
+    border-width: 2px;
+    /* size (in px, pt, cm, em, etc) or (thin, medium or thick) */
+
+    /* CSS Border Color */
+    border-color: tomato orange dodgerblue mediumseagreen;
+}
+
+p.one {
+    border-style: dotted;
+    /* border-width: 4px 2px; */
+    /* a b with a: top and bottom and b: right and left */
+    border-width: 8px 2px 4px 6px;
+    /* top - right - bottom - left */
+}
+
+/* CSS Border - Individual Sides */
+p.two {
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-right-style: dashed;
+    border-left-style: dashed;
+}
+
+/* CSS Shorthand Border */
+p.three {
+    border: 2px dotted tomato;
+}
+
+/* div { */
+    /* CSS Padding */
+    /* padding: 100px; */
+    /* width: 450px; */
+    /* margin: auto; */
+    /* margin-left: 200px; */
+    /* border: 2px dotted tomato; */
+    /* Box-sizing - maintain the width */
+    /* box-sizing: border-box; */
+/* } */
+
+/* p.ex1 {
+    margin:inherit;
+} */
+/* p {
+    background-image: url("Images/bground.jpg");
+} */
+
+/* CSS Width, Height and Max-Width */
+/* CSS Box Model */
+div {
+    /* height: 100px; */
+    /* max-width: 700px; */
+    width: 650px;
+    background-color: lightgray;
+    margin: 20px;
+    border: 15px solid tomato;
+    padding: 50px;
+    /* CSS Text Alignment */
+    text-align: justify;
+    /* CSS Text Align Last*/
+    text-align-last: center ;
+
+    /* CSS White Spacing */
+    white-space: nowrap;
+}
+
+/* CSS Outline */
+
+/* CSS Outline Style */
+p.dotted {
+    outline-color: tomato;
+    outline-style: dotted;
+}
+
+p.ex1 {
+    border: 1px solid black;
+    outline-style: dashed;
+    outline-color: tomato;
+    outline-width: medium;
+}
+
+p.ex2 {
+    border: 2px solid black;
+    outline-style: double;
+    outline-color: aqua;
+}
+
+/* CSS Outline Shorthand */
+p.ex3 {outline:medium dotted tomato ;}
+
+/* CSS Outline Offset */
+p.ex4 {
+    border: 1px dashed black;
+    margin: 30px;
+    background: yellow;
+    outline: 1px solid tomato;
+    outline-offset: 15px;
+}
+
+/* CSS Text Direction */
+p.ex5 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+/* CSS Vertical Alignment */
+img.a {
+    vertical-align: text-top;
+}
+
+/* CSS Text Transformation */
+p.capitalize {
+    text-transform: capitalize;
+}
+
+/* CSS Text Indentation */
+p.ex6 {
+    text-indent: 50px;
+    /* CSS Line Height */
+    line-height: 1.5;
+}
+
+/* Letter Spacing */
+p.inc {
+    letter-spacing: 5px;
+}
+p.dec {
+    letter-spacing: -2px;
+}
+p.ex7 {
+    word-spacing: 10px;
+}
+
+/* CSS Text Shadow */
+h2 {
+    text-shadow: 2px 2px 5px red;
+}
+h2.ex1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* CSS Fonts */
+/* CSS Font Family */
+
+.p1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+    font-family: 'Lucida Console','Courier New',monospace;
+}
+
+.p4 {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+/* Font Variant */
+p.small {
+    font-variant: small-caps;
+}
+
+/* Responsive Font Size */

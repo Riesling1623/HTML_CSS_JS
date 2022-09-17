@@ -1,0 +1,17 @@
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: green;
+}
+/* body {
+    background-image: url('https://scontent.fhph2-1.fna.fbcdn.net/v/t39.30808-1/280268000_773006894080344_1302951253788654951_n.jpg?stp=c27.0.160.160a_dst-jpg_p160x160&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_ohc=hH533u-lud8AX-APBHr&_nc_ht=scontent.fhph2-1.fna&oh=00_AT_Whpkf87X7QxaLF_G7Uimv1OjoTiinJqdapjB9pBbIsQ&oe=6307C754');
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-attachment: fixed;
+} */
