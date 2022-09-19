@@ -4,3 +4,35 @@
 img {
     float: right;
 }
+
+/* clear */
+/* without float */
+.div1 {
+    float: left;
+    padding: 10px;
+    border: 3px solid green;
+}
+
+.div2 {
+    padding: 10px;
+    border: 3px solid red;
+}
+
+/* with clear */
+.div3 {
+    clear: left;
+    padding: 10px;
+    border: 3px solid red;
+}
+
+/* clearfix */
+div {
+    padding: 5px;
+    border: 3px solid green;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
