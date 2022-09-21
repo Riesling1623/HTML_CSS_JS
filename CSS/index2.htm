@@ -40,7 +40,7 @@
 
         <!-- clearfix -->
         <h2>Without clearfix</h2>
-        <div>
+        <div class="ex1">
             <img src="Images/pineapple.jpg" alt="pineapple" style="height:100px;width:100px;margin-left: 15px;">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et 
             dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. 
@@ -49,12 +49,82 @@
         </div>
 
         <h2 style="clear: right;">With clearfix</h2>
-        <div class="clearfix">
-            <img src="Images/pineapple.jpg" alt="pineapple" style="height:100px;width:100px;margin-left: 15px;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et 
-            dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. 
-            Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
-            augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio
+        <div class="ex1">
+            <div class="clearfix">
+                <img src="Images/pineapple.jpg" alt="pineapple" style="height:100px;width:100px;margin-left: 15px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et 
+                dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. 
+                Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
+                augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio
+            </div>
         </div>
+
+        <h2>Grid of boxes</h2>
+        <div class="clearfix">
+            <div class="box" style="background-color: #bbb;">
+                <p>Some text inside the box.</p>
+            </div>
+            <div class="box" style="background-color: #ccc;">
+                <p>Some text inside the box.</p>
+            </div>
+            <div class="box" style="background-color: #ddd;">
+                <p>Some text inside the box.</p>
+            </div>
+        </div>
+
+        <h2>Images side by side</h2>
+        <div class="clearfix">
+            <div class="img-container">
+                <img src="Images/bground.jpg" alt="background" style="width: 100%;">
+            </div>
+            <div class="img-container">
+                <img src="Images/pineapple.jpg" alt="pineapple" style="width: 100%;">
+            </div>
+        </div>
+
+        <h2>Flexible Boxes</h2>
+        <div class="flex-container">
+            <div class="box">
+                Box 1 - This is some text to make sure that the content gest really tall. 
+                This is some text to make sure that the content gest really tall.
+            </div>
+            <div class="box">
+                Box 2 - My height will follow box 1
+            </div>
+        </div>
+
+        <h2>Navigation Menu</h2>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+        <h2>display: inline</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque 
+            elit sit amet consequat. Aliquam erat volutpat. <span class="a">Aliquam</span> <span class="a">venenatis</span> 
+            gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.
+        </div>
+
+        <h2>display: inline-block</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque 
+            elit sit amet consequat. Aliquam erat volutpat. <span class="b">Aliquam</span> <span class="b">venenatis</span> 
+            gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.
+        </div>
+
+        <h2>display: block</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque 
+            elit sit amet consequat. Aliquam erat volutpat. <span class="c">Aliquam</span> <span class="c">venenatis</span> 
+            gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet.
+        </div>
+
+        <h2>Horizontal Navigation Links</h2>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="clients">Our Clients</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
     </body>
 </html>
