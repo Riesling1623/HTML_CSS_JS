@@ -1,9 +1,9 @@
 /* CSS Layout - float and clear */
 
 /* Float */
-img {
+/* img {
     float: right;
-}
+} */
 
 /* clear */
 /* without float */
@@ -144,4 +144,103 @@ span.c {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
+}
+
+/* CSS Layout - Horizontal and Vertical Align */
+
+/* center align elements */
+.center {
+    margin: auto;
+    /* center align text */
+    text-align: center;
+    width: 50%;
+    border: 3px solid greenyellow;
+    padding: 10px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* left and right align */
+.right {
+    /* using position */
+    /* position: absolute;
+    right: 0px; */
+
+    /* using float */
+    float: right;
+    width: 300px;
+    border: 3px solid greenyellow;
+    padding: 10px;
+}
+
+/* center vertical - using padding */
+.center-ver {
+    padding: 70px 0;
+    text-align: center;
+    border: 3px solid greenyellow;
+}
+
+/* center vertical - using line-height */
+.center-ver1 {
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid greenyellow;
+    text-align: center;
+}
+
+.center-ver1 p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* center vertical - using position and transform */
+.center-ver2 {
+    height: 200px;
+    position: relative;
+    border: 3px solid greenyellow;
+}
+
+.center-ver2 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* center vertical - using flexbox */
+.center-ver3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid greenyellow;
+}
+
+/* CSS Combinators */
+
+/* descendant selectors */
+div.ex2 p {
+    background-color: yellowgreen;
+}
+
+/* child selectors */
+div.ex3 > p {
+    background-color: yellowgreen;
+}
+
+/* adjacent sibling selector */
+div.ex4 + p {
+    background-color: yellowgreen;
+}
+
+/* general sibling selector */
+div.ex5 ~ p.ex5 {
+    background-color: yellowgreen;
 }
